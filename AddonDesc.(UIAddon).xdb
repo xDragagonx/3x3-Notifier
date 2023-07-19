@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIAddon>
+	<Name>3x3 Notifier</Name>
+	<AutoStart>true</AutoStart>
+	<MainFormId>Main</MainFormId>
+	<Forms>
+		<Item>
+			<Form href="Widgets/MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)"/>
+			<Id>Main</Id>
+		</Item>
+	</Forms>
+	<ScriptFileRefs>		
+		<Item href="Libs/Chat.lua"/>
+		<Item href="Libs/LibDnD.lua"/>
+		<Item href="Libs/Log.lua"/>
+		<Item href="Libs/Misc.lua"/>
+		<Item href="Libs/ScriptAdvancedToString.lua"/>
+		<Item href="Libs/ScriptChatLogExt.lua"/>
+		<item href="Libs/Sort.lua"/>
+		<Item href="Libs/Utils.lua"/>
+		<Item href="Libs/Widget.lua"/>
+		<Item href="locales.lua"/>
+		<Item href="Script.luac"/>
+    </ScriptFileRefs>
+	<localizedNameFileRef href="name.txt"/>
+	<localizedDescFileRef href="desc.txt"/>
+<addon_name>3x3 Notifier</addon_name><addon_date>1687795263</addon_date><addon_link>https://alloder.pro/files/file/855-3x3-notifier/?do=download&amp;r=24252&amp;confirm=1&amp;t=1&amp;csrfKey=</addon_link></UIAddon>
